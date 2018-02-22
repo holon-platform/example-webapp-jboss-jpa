@@ -1,0 +1,16 @@
+spring:
+  main:
+    banner-mode: "off"
+    
+  datasource:
+    url: "jdbc:h2:mem:productsjpa"
+    username: "sa"
+    password: ""
+    
+  jpa:
+    hibernate:
+      ddl-auto: 'none'
+
+vaadin:
+  servlet:
+    production-mode: true
